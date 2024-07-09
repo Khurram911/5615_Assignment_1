@@ -1,0 +1,105 @@
+Task_1 (addition)
+    Read A
+    Read B
+    C=A+B
+    Print C
+
+Task_2 (even numbers from 1 to 100)
+    A=2
+    while (A<=100)
+        Print A
+        A=A+2
+    Endwhile
+
+Task_3 (leap year)
+    Read year
+    If (year/4 reminder equal to 0)
+        Print (this is a leap year)
+    else
+        print (this is not a year)
+    Endif
+
+Task_4 (Miles/hr)
+    Read A (in km/hr)
+    B= A*0.621371
+    Print (B in miles/hr)
+
+Task_5 (Buzz number)
+	Read A
+	B=A%10
+	if (A/7 reminder equal to 0 or B is equal to 7)
+		print (It is buzz number)
+	elseif
+		print (it is not a buzz number)
+	Endif
+
+Task_6 (Printing Table)
+	Read A
+	i=1
+	while (i<=10)
+		B= A*i
+		print ( A X i = B)
+		i=i+1 (incrment)
+	Endwhile
+
+Task_7 (factorial)
+	Read A
+	C=1
+	while (A>0)
+		C=C*A
+		A=A-1
+	Endwhile
+	Print (C!)
+
+Task_8 (check Prime)
+	Read A
+	B=A/2
+	Check=True
+	while (B>=2)
+ 		if (A/B reminder equal to 0)
+			check= False	
+	Endwhile
+	if (check==True)
+		Print (it is a prime number)
+	else
+		Print (it is not a prime number)
+	Endif
+
+Task_9 (Tiangle)
+	Read A
+	Read B
+	Read C
+	
+	if (A==B and B==C)
+		Print (Equiletral triangle)
+	elseif (A==B or B==C)
+		Print (Isosceles triangle)
+	else
+		Print (scalen Triangle)
+
+Task_10 (Printing stars)
+	i=1
+	while (i<=5)
+		j=1
+		while (j<=i)
+			print(*)
+			j=j+1
+		Endwhile
+		print (newline)
+		i=i+1
+	Endwhile
+			
+Bounace Task
+	Read A
+	rev = 0
+	while (A!=0)
+		digit= A%10
+		revdigt= rev*10+digit
+		A=A/10
+		
+	Endwhile
+
+	iF (A==revdigt)
+		Print(it is palindrome)
+	else
+		Print(it is not a palindrome)
